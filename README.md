@@ -27,11 +27,11 @@ activate () {
 ```
 
 ##### blitz (packageName, handler)
-* <b>packageName</b> <i>[String | Array&lt;String>] (optional)</i><br>  
+* <b>packageName</b> <i>[String | Array&lt;String>] \(optional\)</i><br>  
 If not given, will deduce the name from the call stack adding to your package load time. For
 best results always pass your package name. Multiple package names may be given allowing you
 to migrate settings from a renamed package into the new config namespace.<br><br>
-* <b>handler</b> <i>[Function] (optional)</i><br>  
+* <b>handler</b> <i>[Function] \(optional\)</i><br>  
 If given, will be called with all erroneous config keys and their values. If not given all keys
-will be removes from `config.cson`. Returning a falsy will remove the key, if you wish to leave
+will be removed from `config.cson`. Returning a falsy will remove the key, if you wish to leave
 the key intact be sure to return `true`.
