@@ -1,0 +1,14 @@
+{
+  "name": "atom-blitz-settings",
+  "version": "0.0.1",
+  "description": "Repair erronous settings for an atom package",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "twifty",
+  "license": "MIT",
+  "dependencies": {
+    "atom-package-path": "^1.1.0"
+  }
+}
