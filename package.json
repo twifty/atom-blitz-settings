@@ -1,6 +1,6 @@
 {
   "name": "atom-blitz-settings",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Repair erronous settings for an atom package",
   "main": "src/index.js",
   "repository": "git@github.com:twifty/atom-blitz-settings.git",
