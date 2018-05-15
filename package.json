@@ -1,12 +1,18 @@
 {
   "name": "atom-blitz-settings",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Repair erronous settings for an atom package",
   "main": "src/index.js",
   "repository": "git@github.com:twifty/atom-blitz-settings.git",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [
+    "atom",
+    "package",
+    "config",
+    "settings",
+    "erroneous",
+    "stale",
+    "migrate"
+  ],
   "author": "twifty",
   "license": "MIT",
   "dependencies": {
