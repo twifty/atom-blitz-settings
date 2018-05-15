@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Repair erronous settings for an atom package",
   "main": "src/index.js",
+  "repository": "git@github.com:twifty/atom-blitz-settings.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
